@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Names of Solita</title>
+</head>
+<html>
+  <body>
+    <!-- this shows data to user -->
+    <pre>
+      {% if not dataframe.empty %}
+      {{dataFrame.__repr__()|safe}}
+      {% endif %}
+    </pre>
+  </body>
+</html>
